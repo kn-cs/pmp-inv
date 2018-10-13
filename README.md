@@ -1,6 +1,5 @@
 # pmp-inv
 
-Source code repository of the work: "Efficient Inversion in Mersenne and Pseudo-Mersenne Prime Order Fields", authored by
-Kaushik Nath & Palash Sarkar, Indian Statitical Institute, Kolkata.
+Thios is the source code repository of the work: "Efficient Inversion in (Pseudo-)Mersenne Prime Order Fields", authored by Kaushik Nath & Palash Sarkar of Indian Statitical Institute, Kolkata, India.
 
 Source codes of the paper would be uploaded soon!
