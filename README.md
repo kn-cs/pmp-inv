@@ -1,11 +1,15 @@
-# Efficient Inversion in (Pseudo-)Mersenne Prime Order Fields
+## Efficient FLT-based inversion in Mersenne and pseudo-Mersenne prime order fields targeting the Intel architectures
 
-This is the source code repository of the work: "Efficient Inversion in (Pseudo-)Mersenne Prime Order Fields", authored by Kaushik Nath & Palash Sarkar of Indian Statistical Institute, Kolkata, India.
+This is the source code repository of the work [Efficient Inversion in (Pseudo-)Mersenne Prime Order Fields](https://eprint.iacr.org/eprint-bin/getfile.pl?entry=2018/985&version=20181106:063428&file=985.pdf), authored by [Kaushik Nath](kaushikn_r@isical.ac.in) & [Palash Sarkar](palash@isical.ac.in) of [Indian Statistical Institute, Kolkata, India](https://www.isical.ac.in).
+This work focuses on efficient arithmetic in cryptographically relevant Mersenne and pseudo-Mersenne prime order fields, targeting the various Intel architectures. A total of 14 primes has been worked with covering various security levels. 
 
-Paper-link: https://eprint.iacr.org/2018/985.pdf
+To report a bug or make a comment regarding the implementations please drop a mail to: [Kaushik Nath](kaushikn_r@isical.ac.in).
 
-This work focuses on efficient inversion in cryptographically relevant Mersenne and pseudo-Mersenne prime order fields, targeting the various Intel architectures. A total of twenty primes has been worked with at various security level, out of which thirteen primes are well known in the area of Elliptic Curve Cryptography (ECC).
+---
 
-To report a bug or make a comment regarding the implementations please drop a mail to: 
+### Compilation and execution of programs 
+    
+* Please compile the ```makefile``` in the **test** directory and execute the generated executable file. 
+* One can change the architecture accordingly in the makefile before compilation. Default provided is ```Skylake```.
 
-Kaushik Nath, e-mail: kaushikn_r@isical.ac.in.
+---
